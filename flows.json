@@ -1,0 +1,1 @@
+[{"id":"82e9d5f3.6334a8","type":"function","z":"55e18442.aa1bac","name":"staffid","func":"msg.payload = msg.payload.id\nglobal.set('i',msg.payload)\nreturn msg;\n","outputs":1,"noerr":0,"initialize":"","finalize":"","libs":[],"x":370,"y":140,"wires":[["d7a2402.6d449c"]]}]
